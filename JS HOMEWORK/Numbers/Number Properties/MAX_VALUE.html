@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The MAX_VALUE Property</h2>
+
+<p>The largest possible number in JavaScript is:</p>
+<p id="demo"></p>
+
+<script>
+let x = Number.MAX_VALUE;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript const</h2>
+
+<p>You can NOT reassign a constant array:</p>
+
+<p id="demo"></p>
+
+<script>
+try {
+  const cars = ["Saab", "Volvo", "BMW"];
+  cars = ["Toyota", "Volvo", "Audi"];
+}
+catch (err) {
+  document.getElementById("demo").innerHTML = err;
+}
+</script>
+
+</body>
+</html>

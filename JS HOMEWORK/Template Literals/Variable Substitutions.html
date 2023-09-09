@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Template Literals</h2>
+
+<p>Template literals allows variables in strings:</p>
+
+<p id="demo"></p>
+
+<p>Template literals are not supported in Internet Explorer.</p>
+
+<script>
+let firstName = "John";
+let lastName = "Doe";
+
+let text = `Welcome ${firstName}, ${lastName}!`;
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>

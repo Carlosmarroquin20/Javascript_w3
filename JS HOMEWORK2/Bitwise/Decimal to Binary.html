@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Convert Decimal to Binary</h1>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = dec2bin(-5);
+function dec2bin(dec){
+  return (dec >>> 0).toString(2);
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Arithmetic</h1>
+<h2>Arithmetic Operations</h2>
+<p>A typical arithmetic operation takes two numbers (or expressions) and produces a new number.</p>
+
+<p id="demo"></p>
+
+<script>
+let a = 3;
+let x = (100 + 50) * a;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Global Methods</h2>
+
+<p>The Number() method converts variables to numbers:</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 
+  Number(true) + "<br>" +
+  Number(false) + "<br>" +
+  Number("10") + "<br>" + 
+  Number("  10") + "<br>" +
+  Number("10  ") + "<br>" +
+  Number(" 10  ") + "<br>" +
+  Number("10.33") + "<br>" + 
+  Number("10,33") + "<br>" +
+  Number("10 33") + "<br>" +
+  Number("John");
+</script>
+
+</body>
+</html>
+
+

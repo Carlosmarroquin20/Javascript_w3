@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Global Variables</h2>
+<p>If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable:</p>
+
+<p id="demo"></p>
+
+<script>
+myFunction();
+// code here can use carName as a global variable
+document.getElementById("demo").innerHTML = "I can display " + carName;
+
+function myFunction() {
+  carName = "Volvo";
+}
+</script>
+
+</body>
+</html>
